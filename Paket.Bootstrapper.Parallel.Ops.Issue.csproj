@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard1.6;netstandard1.3;netstandard1.1;netstandard1.0;net46;net45;net40</TargetFrameworks>
+    <AssemblyName>Paket.Bootstrapper.Parallel.Ops.Issue</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <BumpMajor>false</BumpMajor>
+    <BumpMinor>false</BumpMinor>
+    <BumpPatch>true</BumpPatch>
+    <BumpRevision>true</BumpRevision>
+  </PropertyGroup>
+  <Import Project=".paket\Paket.Restore.targets" />
+</Project>
